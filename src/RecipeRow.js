@@ -14,7 +14,7 @@ function RecipeRow({ recipe, key, deleteRecipe }) {
         <p>{recipe.preparation}</p>
       </td>
       <td>
-        <button name="delete" onClick={deleteRecipe}>
+        <button name="delete" className="delete-button" onClick={deleteRecipe}>
           Delete
         </button>
       </td>

@@ -40,10 +40,10 @@ td {
 }
 
 table {
-  /* table-layout: fixed;
+  /* table-layout: fixed; */
   width: 100%;
   border-collapse: collapse;
-  overflow: hidden; */
+  overflow: hidden;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -62,12 +62,26 @@ h1 {
   padding: 10px;
 }
 
+/* Set width for preparation and ingredients columns to 30% */
 td:nth-child(4),
 td:nth-child(5) {
   width: 30%;
 }
+
+/* Set width for other columns to 10% */
 td:nth-child(1),
 td:nth-child(2),
 td:nth-child(3) {
+  width: 10%;
+}
+
+/* Style for header columns when no recipies precent*/
+th:nth-child(4),
+th:nth-child(5) {
+  width: 30%;
+}
+th:nth-child(1),
+th:nth-child(2),
+th:nth-child(3) {
   width: 10%;
 }

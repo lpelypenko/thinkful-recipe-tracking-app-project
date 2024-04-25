@@ -68,7 +68,9 @@ function RecipeCreate({ handleChange, formData, handleSubmit }) {
                 ></textarea>
               </td>
               <td>
-                <button type="submit">Create</button>
+                <button type="submit" className="create-button">
+                  Create
+                </button>
               </td>
             </tr>
           </tbody>
