@@ -1,0 +1,13 @@
+.table-body {
+  background-color: #fbefcc;
+}
+input,
+textarea {
+  width: 100%;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: grey; /* Placeholder text color */
+  font-size: 14px; /* Placeholder text font size */
+}

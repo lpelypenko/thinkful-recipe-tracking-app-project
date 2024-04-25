@@ -5,12 +5,10 @@ In this project, you will build a recipe-tracking app. The app will allow a user
 
 ## Getting Started
 
-This project has starter code you can use for the application. You will need to add handlers and other logic to make this code work.
+Make sure you're running Node v18 before you run `npm install`.
 
-- **Node Version**: Make sure you're running Node v18 before you run `npm install`.
-  - Check which version you are running: `node -v`
-  - If needed, change the version to v18: `nvm use v18`
-- For additional help, review the "Learn your tools: Visual Studio Code" lesson in the "Welcome" module.
+- Check which version you are running: `node -v`
+- If needed, change the version to v18: `nvm use v18`
 
 ## Specific Instructions
 
