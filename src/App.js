@@ -20,7 +20,6 @@ function App() {
   const [formData, setFormData] = useState({ ...initialFormState });
   const handleSubmit = (event) => {
     event.preventDefault();
-    console.log("New recipe was submitted with:", formData);
     setRecipes([...recipes, formData]);
     setFormData({ ...initialFormState });
   };

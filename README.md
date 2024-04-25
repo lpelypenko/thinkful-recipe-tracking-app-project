@@ -51,3 +51,7 @@ Clicking the Delete button should remove the entire row/recipe from the list. Fo
 - CSS is used to make the app look like the mockup.
 - React code organization: Uses multiple components that play well together. Recipe data is contained in the state.
 - General code organization: Minimal code duplication.
+
+## Actual emplementation snapshot
+
+![alt text](deliciousfoods-actual.png)

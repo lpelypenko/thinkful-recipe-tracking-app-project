@@ -8,21 +8,21 @@ textarea {
 
 input::placeholder,
 textarea::placeholder {
-  color: grey; /* Placeholder text color */
-  font-size: 14px; /* Placeholder text font size */
+  color: grey;
+  font-size: 12px;
 }
 
 /* Style for the create button */
 .create-button {
-  background-color: #4caf50; /* Green background color */
-  color: white; /* White text color */
-  border: none; /* No border */
-  padding: 5px 10px; /* Padding */
-  cursor: pointer; /* Cursor style */
-  border-radius: 3px; /* Border radius */
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
 }
 
 /* Hover effect for the create button */
 .create-button:hover {
-  background-color: #388e3c; /* Darker green background color on hover */
+  background-color: #388e3c;
 }
